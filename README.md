@@ -1,6 +1,6 @@
 # Python File Generator
 
-<img src="images/quickpick-selection.png" alt="Select a Python file template using a QuickPick menu in VS Code to generate code instantly" />
+<img src="https://raw.githubusercontent.com/ManuelGil/vscode-python-generator/refs/heads/main/images/quickpick-selection.png" alt="Select a Python file template using a QuickPick menu in VS Code to generate code instantly" />
 
 Generate Python files and project structures using reusable templates.
 
@@ -41,7 +41,7 @@ This is more practical than snippets and lighter than a full framework generator
 - Uses logging instead of print in non-CLI contexts
 - Produces readable and maintainable file structures
 
-<img src="images/python-architecture-generated.png" alt="Automatically generated Python project structure with repository, service and schema files in VS Code" />
+<img src="https://raw.githubusercontent.com/ManuelGil/vscode-python-generator/refs/heads/main/images/python-architecture-generated.png" alt="Automatically generated Python project structure with repository, service and schema files in VS Code" />
 
 ## Code Quality
 
@@ -149,7 +149,7 @@ The extension provides clear descriptions and guidance when selecting what to ge
 
 ## Custom Templates
 
-<img src="images/custom-template-generation.png" alt="Generate Python code from custom JSON templates inside VS Code for flexible and reusable scaffolding" />
+<img src="https://raw.githubusercontent.com/ManuelGil/vscode-python-generator/refs/heads/main/images/custom-template-generation.png" alt="Generate Python code from custom JSON templates inside VS Code for flexible and reusable scaffolding" />
 
 Define custom templates in settings under `pythonGenerator.templates.customTemplates`.
 
