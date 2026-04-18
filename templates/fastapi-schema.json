@@ -1,0 +1,37 @@
+{
+	"id": "python.api.fastapi.schema",
+	"name": "FastAPI Schema",
+	"description": "Pydantic schemas for FastAPI endpoints",
+	"category": "file",
+	"subcategory": "api",
+	"tags": ["python", "fastapi", "pydantic", "schema"],
+	"framework": "fastapi",
+	"language": "python",
+	"kind": "file",
+	"multiFile": false,
+	"type": "fastapi-schema",
+	"output": {
+		"fileName": "schema.py",
+		"folder": ""
+	},
+	"priority": 90,
+	"complexity": "low",
+	"usage": "common",
+	"recommended": true,
+	"template": [
+		"\"\"\"{{featureNamePascalCase}} Schemas\"\"\"",
+		"",
+		"from pydantic import BaseModel",
+		"",
+		"",
+		"class {{featureNamePascalCase}}Read(BaseModel):",
+		"    \"\"\"Schema returned by read endpoints.\"\"\"",
+		"    id: int",
+		"    name: str",
+		"",
+		"",
+		"class {{featureNamePascalCase}}Create(BaseModel):",
+		"    \"\"\"Schema expected by create endpoints.\"\"\"",
+		"    name: str"
+	]
+}

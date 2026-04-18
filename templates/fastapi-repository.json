@@ -1,0 +1,32 @@
+{
+	"id": "python.api.fastapi.repository",
+	"name": "FastAPI Repository",
+	"description": "Repository abstraction for persistence access",
+	"category": "file",
+	"subcategory": "data",
+	"tags": ["python", "fastapi", "repository", "persistence"],
+	"framework": "fastapi",
+	"language": "python",
+	"kind": "file",
+	"multiFile": false,
+	"type": "fastapi-repository",
+	"output": {
+		"fileName": "repository.py",
+		"folder": ""
+	},
+	"priority": 88,
+	"complexity": "medium",
+	"usage": "common",
+	"recommended": true,
+	"template": [
+		"\"\"\"{{featureNamePascalCase}} Repository\"\"\"",
+		"",
+		"",
+		"class {{featureNamePascalCase}}Repository:",
+		"    \"\"\"Repository contract for {{featureNameSnakeCase}} persistence.\"\"\"",
+		"",
+		"    def list_all(self) -> list[dict[str, object]]:",
+		"        \"\"\"Return all persisted entities.\"\"\"",
+		"        return []"
+	]
+}

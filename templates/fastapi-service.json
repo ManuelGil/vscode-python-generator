@@ -1,0 +1,32 @@
+{
+	"id": "python.api.fastapi.service",
+	"name": "FastAPI Service",
+	"description": "Service layer for FastAPI feature logic",
+	"category": "file",
+	"subcategory": "domain",
+	"tags": ["python", "fastapi", "service", "business-logic"],
+	"framework": "fastapi",
+	"language": "python",
+	"kind": "file",
+	"multiFile": false,
+	"type": "fastapi-service",
+	"output": {
+		"fileName": "service.py",
+		"folder": ""
+	},
+	"priority": 92,
+	"complexity": "medium",
+	"usage": "common",
+	"recommended": true,
+	"template": [
+		"\"\"\"{{featureNamePascalCase}} Service\"\"\"",
+		"",
+		"",
+		"class {{featureNamePascalCase}}Service:",
+		"    \"\"\"Application service for {{featureNameSnakeCase}} use cases.\"\"\"",
+		"",
+		"    def get_all(self) -> dict[str, object]:",
+		"        \"\"\"Return a paginated-like response payload.\"\"\"",
+		"        return {'items': [], 'total': 0}"
+	]
+}

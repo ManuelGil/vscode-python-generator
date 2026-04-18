@@ -1,0 +1,27 @@
+{
+  "id": "python.api.fastapi.feature",
+  "name": "FastAPI Feature",
+  "description": "Scaffold a complete FastAPI feature module",
+  "category": "feature",
+  "subcategory": "api",
+  "tags": ["python", "fastapi", "feature", "scaffold"],
+  "framework": "fastapi",
+  "language": "python",
+  "kind": "multi",
+  "multiFile": true,
+  "type": "fastapi-feature",
+  "output": {
+    "folder": "{{featureNameSnakeCase}}"
+  },
+  "files": [
+    "python.api.fastapi.router",
+    "python.api.fastapi.service",
+    "python.api.fastapi.schema",
+    "python.api.fastapi.repository"
+  ],
+  "priority": 98,
+  "complexity": "medium",
+  "usage": "common",
+  "recommended": true,
+  "template": []
+}

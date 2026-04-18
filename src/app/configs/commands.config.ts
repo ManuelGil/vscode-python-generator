@@ -1,0 +1,16 @@
+export enum CommandIds {
+  ChangeWorkspace = 'changeWorkspace',
+  Generate = 'generate',
+  GenerateCustomTemplate = 'generateCustomTemplate',
+  GeneratePythonScript = 'generatePythonScript',
+  GeneratePythonModule = 'generatePythonModule',
+  GenerateCliTool = 'generateCliTool',
+  GenerateService = 'generateService',
+  GenerateRepository = 'generateRepository',
+  GenerateDTO = 'generateDTO',
+  GenerateTest = 'generateTest',
+  GenerateLogger = 'generateLogger',
+  GenerateFastAPIRoute = 'generateFastAPIRoute',
+  GenerateFastApiFeature = 'generateFastApiFeature',
+  GenerateDjangoModel = 'generateDjangoModel',
+}

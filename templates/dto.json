@@ -1,0 +1,38 @@
+{
+  "id": "python.domain.dto",
+  "name": "Pydantic DTO",
+  "description": "Pydantic BaseModel schema",
+  "category": "file",
+  "subcategory": "domain",
+  "tags": ["python", "pydantic", "dto", "schema"],
+  "framework": "none",
+  "language": "python",
+  "kind": "file",
+  "multiFile": false,
+  "type": "dto",
+  "output": {
+    "fileName": "{{fileNameSnakeCase}}_dto.py",
+    "folder": ""
+  },
+  "priority": 80,
+  "complexity": "low",
+  "usage": "common",
+  "recommended": true,
+  "template": [
+    "\"\"\"{{fileNamePascalCase}}DTO",
+    "",
+    "Data transfer object for {{fileNameSnakeCase}} payloads.",
+    "Generated on {{date}} by {{author}}",
+    "\"\"\"",
+    "",
+    "from pydantic import BaseModel, Field",
+    "",
+    "",
+    "class {{fileNamePascalCase}}DTO(BaseModel):",
+    "    \"\"\"DTO schema for {{fileNameSnakeCase}} operations.\"\"\"",
+    "",
+    "    id: int | None = Field(default=None, description='Entity identifier')",
+    "    name: str = Field(..., min_length=1, description='Display name')",
+    "    is_active: bool = Field(default=True, description='Entity status')"
+  ]
+}

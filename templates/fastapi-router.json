@@ -1,0 +1,35 @@
+{
+  "id": "python.api.fastapi.router",
+  "name": "FastAPI Router",
+  "description": "Router wired to service layer",
+  "category": "file",
+  "subcategory": "api",
+  "tags": ["python", "fastapi", "http", "backend"],
+  "framework": "fastapi",
+  "language": "python",
+  "kind": "file",
+  "multiFile": false,
+  "type": "fastapi-router",
+  "output": {
+    "fileName": "router.py",
+    "folder": ""
+  },
+  "priority": 95,
+  "complexity": "low",
+  "usage": "common",
+  "recommended": true,
+  "template": [
+    "\"\"\"{{featureNamePascalCase}} FastAPI Router\"\"\"",
+    "",
+    "from fastapi import APIRouter",
+    "from .service import {{featureNamePascalCase}}Service",
+    "",
+    "router = APIRouter()",
+    "",
+    "",
+    "@router.get('/')",
+    "def get_all() -> dict[str, object]:",
+    "    \"\"\"Return all entities from the service layer.\"\"\"",
+    "    return {{featureNamePascalCase}}Service().get_all()"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "python.testing.pytest",
+  "name": "Pytest Test",
+  "description": "Pytest test module template",
+  "category": "file",
+  "subcategory": "testing",
+  "tags": ["python", "pytest", "testing"],
+  "framework": "none",
+  "language": "python",
+  "kind": "file",
+  "multiFile": false,
+  "type": "test",
+  "output": {
+    "fileName": "test_{{fileNameSnakeCase}}.py",
+    "folder": ""
+  },
+  "priority": 75,
+  "complexity": "low",
+  "usage": "common",
+  "recommended": true,
+  "template": [
+    "\"\"\"Tests for {{fileNamePascalCase}}.\"\"\"",
+    "",
+    "import pytest",
+    "",
+    "",
+    "def test_{{fileNameSnakeCase}}_returns_expected_value() -> None:",
+    "    \"\"\"Example pytest test case.\"\"\"",
+    "    expected = {'status': 'ok'}",
+    "    result = {'status': 'ok'}",
+    "    assert result == expected",
+    "",
+    "",
+    "@pytest.mark.parametrize('value', [1, 2, 3])",
+    "def test_{{fileNameSnakeCase}}_is_positive(value: int) -> None:",
+    "    \"\"\"Ensure generated values are positive.\"\"\"",
+    "    assert value > 0"
+  ]
+}
