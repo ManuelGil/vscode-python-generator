@@ -9,7 +9,7 @@ updates:
     schedule:
       interval: "weekly"
       day: "friday"
-      time: "10:00"
+      time: "09:00"
       timezone: "Etc/UTC"
 
     # Limit concurrent update PRs to reduce maintenance noise

@@ -12,10 +12,7 @@ This extension helps you move faster when you need FastAPI scaffolding, CLI tool
 - Prioritizes relevant options with Smart Generate, but keeps every command visible
 - Lets you extend the generator with your own templates
 
-[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/imgildev.vscode-python-generator?style=for-the-badge&label=VS%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=imgildev.vscode-python-generator)
-[![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/imgildev.vscode-python-generator?style=for-the-badge&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=imgildev.vscode-python-generator)
-[![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/imgildev.vscode-python-generator?style=for-the-badge&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=imgildev.vscode-python-generator)
-[![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/imgildev.vscode-python-generator?style=for-the-badge&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=imgildev.vscode-python-generator&ssr=false#review-details)
+[![GitHub package.json version](https://img.shields.io/github/package-json/v/ManuelGil/vscode-python-generator?style=for-the-badge&logo=github)](https://marketplace.visualstudio.com/items?itemName=imgildev.vscode-python-generator)
 [![GitHub Repo stars](https://img.shields.io/github/stars/ManuelGil/vscode-python-generator?style=for-the-badge&logo=github)](https://github.com/ManuelGil/vscode-python-generator)
 [![GitHub license](https://img.shields.io/github/license/ManuelGil/vscode-python-generator?style=for-the-badge&logo=github)](https://github.com/ManuelGil/vscode-python-generator/blob/main/LICENSE)
 
